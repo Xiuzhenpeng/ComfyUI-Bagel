@@ -1,8 +1,8 @@
-from .nodes import LoadBAGELModel, Prompt, LoadEditImage, ImageGeneration, ImageThinkGeneration, ImageEditing, ImageThinkEditing, ImageUnderstanding
+from .nodes import LoadBAGELModel, BagelPrompt, LoadEditImage, ImageGeneration, ImageThinkGeneration, ImageEditing, ImageThinkEditing, ImageUnderstanding
 
 NODE_CLASS_MAPPINGS = {
     "LoadBAGELModel": LoadBAGELModel,
-    "Prompt": Prompt,
+    "BagelPrompt": BagelPrompt,
     "LoadEditImage": LoadEditImage,
     "ImageGeneration": ImageGeneration,
     "ImageThinkGeneration": ImageThinkGeneration,
@@ -13,7 +13,7 @@ NODE_CLASS_MAPPINGS = {
 
 NODE_DISPLAY_NAME_MAPPINGS = {
     "LoadBAGELModel": "Load BAGEL Model",
-    "Prompt": "Prompt",
+    "BagelPrompt": "Bagel Prompt",
     "LoadEditImage": "Load Edit Image",
     "ImageGeneration": "Image Generation",
     "ImageThinkGeneration": "Image Think Generation",

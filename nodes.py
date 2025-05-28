@@ -139,7 +139,7 @@ class LoadBAGELModel:
         return (model, vae_model, tokenizer, vae_transform, vit_transform, new_token_ids,)
 
 
-class Prompt:
+class BagelPrompt:
     @classmethod
     def INPUT_TYPES(s):
         return {
